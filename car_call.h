@@ -17,4 +17,5 @@
 	 struct cab *next;
  } cab_t;
 
+cab_t *add_new_cab(cab_t **head, char *nombres, char *estado, unsigned int maletero);
 #endif
