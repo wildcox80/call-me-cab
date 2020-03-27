@@ -1,0 +1,15 @@
+.TH man 1 "27 Mar 2020" "1.0" "call_me_cab man page"
+.SH NAME
+.B Call Me Cab
+- Software in C language for booking a taxi service.
+.SH SYNOPSIS
+Taxi Station Operator informed about the status of the Taxis available is the main reason for this project.
+.SH DESCRIPTION
+Call me cab is a project in Holberton School BAQ-120 Hackaton.
+.SH OPTIONS
+.B No options.
+does not take any options.
+.SH
+No known bugs, since call to write memory maybe security holes.
+.SH AUTHOR
+Yoyman Castellar, Luz Perdomo and Wilder Rincon. 
