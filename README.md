@@ -1,20 +1,35 @@
-# PROJECT TITLE
+## call-me-cab   -  A prototipe a booking cabs
 
-### _PRINTF FUNCTION
 
-## DESCRIPTION
+### What project does ?
+- This project was developed for learning purpose.
+- This project is to provide a solution to passengers requesting a taxi, with the ease of choosing whether or not they need a truck, as long as it is available.
 
-The functions in the printf() family produce output according to a format as described below. The functions printf() and vprintf() write output to stdout, the standard output stream; fprintf() and vfprintf() write output to the given output stream; sprintf(), snprintf(), vsprintf() and vsnprintf() write to the character string str.
+### files contained in the project:
 
-The functions snprintf() and vsnprintf() write at most size bytes (including the terminating null byte ('\0')) to str.
+    add_cab.c		"It's a function to add a car into the list."
+    car_call.h		"This is a static library containing prototypes and directives."
+    man_call_me_cab 	"This is our function manual v.0.0.1."
+    main_test.c		"This file contains main function."
 
-The functions vprintf(), vfprintf(), vsprintf(), vsnprintf() are equivalent to the functions printf(), fprintf(), sprintf(), snprintf(), respectively, except that they are called with a va_list instead of a variable number of arguments. These functions do not call the va_end macro. Because they invoke the va_arg macro, the value of ap is undefined after the call.
+### How to compile:
 
-## Example
+This function was compiled with with gcc 4.8.4.
+```bash
+gcc -Wall -Wextra -Werror -pedantic -Wno-format *.c
+```
+To execute the program in bash:
+```bash
+./a.out
+```
 
-To print Pi to five decimal places:
 
-    #include <math.h>
-    #include <stdio.h>
-    fprintf(stdout, "pi = %.5f\n", 4 * atan(1.0));
 
+### Authors
+- Yoyman Castellar - [Github](https://github.com/ymcastellar) , [Twitter](https://twitter.com/castellaryoyman).
+- Luz A Perdomo- [Github](https://github.com/luzperdomo92) , [Twitter](https://twitter.com/hikari_perdomo).
+- Wilder Rincon- [Github](https://github.com/wildcox80) , [Twitter](https://twitter.com/@wildsrincon).
+
+
+
+###  End of README.md
