@@ -64,7 +64,7 @@ char *_strcpy(char *dest, char *src)
 
 
 /**
- *_strcat - concatenate two strings
+ *_strcat - concatenate two string
  *@dest: destination concatenate
  *@src: source concatenate
  *Return: concatenate two string
